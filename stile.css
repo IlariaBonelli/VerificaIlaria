@@ -1,0 +1,88 @@
+﻿body {
+    background-image: url(https://getwallpapers.com/wallpaper/full/d/b/b/376754.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.ulmenu{
+    font-family:'Comic Sans MS';
+    font-size:30px;
+    display:inline-block;
+    background-color:blanchedalmond;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    *display:inline;
+    text-align:center;
+}
+
+.limenu {
+    background-color: black;
+    color: red;
+    float: left;
+    padding: 4px 8px;
+    border: 2px solid black;
+    border-radius: 6px 4px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+a:hover {
+
+    background-color: yellowgreen;
+}
+
+a:visited{
+    color:rebeccapurple;
+}
+
+#b1{
+    border-radius:20px;
+}
+    
+#titolo{
+    font-family:Impact;
+    font-size: 80px;
+    text-align:center;
+}
+
+#sottotitolo{
+    font-family:fantasy;
+    font-size:40px;
+    text-align:left;
+    color:orangered;
+}
+
+footer{
+
+    text-align:right;
+    font-size:30px;
+    font-family:Arial;
+    background-color:black;
+    color: rebeccapurple;
+}
+
+#lista{
+    background-color: bisque;
+}
+
+section{
+    background-color:bisque;
+}
+
+#titmenu{
+    color:orangered;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px
+}
+
+iframe{
+    width: 750px;
+    height:400px;
+}

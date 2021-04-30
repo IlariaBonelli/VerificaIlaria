@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="stile.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <h1 id="titolo">Transformers</h1>
+        <h2 id="sottotitolo">News</h2>
+    </header>
+    <form onsubmit="OperazioneEffettuata()">
+        <header>
+            <h2>Newsletter</h2>
+            <h3>Iscriviti!</h3>
+        </header>
+            <label>Nome:</label>
+            <input type=text id="nome" onchange="Change()" />
+        
+        <div>
+            <input type="button" id="subscribe" onclick="Subscribe()" value="Iscriviti" disabled />
+            <input type="button" id="unsubscribe" onclick="Unsubscribe()" value="Disiscriviti" />
+        </div>
+    </form>
+    <br />
+    <br />
+
+    <button id="b1" onclick="Home"><a href="home.html">Home</button></a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+        <p>Autore: Ilaria Bonelli</p>
+    </footer>
+</body>
+</html>
